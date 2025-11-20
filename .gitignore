@@ -1,0 +1,45 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server
+tania
+
+# Test binary
+*.test
+tests/coverage.out
+tests/coverage.html
+tests/benchmark.txt
+
+# Output
+*.out
+
+# Dependencies
+vendor/
+
+# PocketBase data
+pb_data/
+pb_migrations/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Node modules (if any)
+node_modules/

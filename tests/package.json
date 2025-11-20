@@ -1,0 +1,12 @@
+{
+  "name": "tania",
+  "private" : true,
+  "version": "1.0.0",
+  "description": "Client tests for WebRTC Social Server",
+  "scripts": {
+    "test": "bun test --timeout 10000",
+    "test:watch": "bun test --timeout 10000 --watch",
+    "test:coverage": "bun test --timeout 10000 --coverage"
+  },
+  "devDependencies": {}
+}
