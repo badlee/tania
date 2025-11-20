@@ -665,24 +665,24 @@ func Execute() {
 	var ghOwner string
 	app.RootCmd.PersistentFlags().StringVar(
 		&ghOwner,
-		"gh-owner",
-		"pocketbase",
+		"github-owner",
+		"badlee",
 		"the owner of the repository for the selfupdate",
 	)
 
 	var ghRepo string
 	app.RootCmd.PersistentFlags().StringVar(
 		&ghRepo,
-		"gh-repo",
-		"pocketbase",
+		"github-repo",
+		"tania",
 		"the name of the repository for the selfupdate",
 	)
 
 	var ghArchiveExecutable string
 	app.RootCmd.PersistentFlags().StringVar(
 		&ghArchiveExecutable,
-		"gh-archive-executable",
-		"pocketbase",
+		"github-archive-executable",
+		"tania",
 		"the name of the executable file in the release archive",
 	)
 
